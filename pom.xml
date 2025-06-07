@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-<<<<<<< HEAD
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-=======
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
->>>>>>> 414d22fbc0d7a961001126d2b53ef1d87f09e121
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.5</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.example</groupId>
-<<<<<<< HEAD
 	<artifactId>bet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bet</name>
-=======
-	<artifactId>RaceService</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>RaceService</name>
->>>>>>> 414d22fbc0d7a961001126d2b53ef1d87f09e121
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -44,29 +35,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-=======
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
->>>>>>> 414d22fbc0d7a961001126d2b53ef1d87f09e121
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -75,5 +57,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
+		git add pom.xml
+		git commit -m "Resolved pom.xml merge conflict for bet service"
